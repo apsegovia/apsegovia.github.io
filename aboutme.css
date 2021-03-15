@@ -12,7 +12,14 @@ html, body {
 }
 
 #bg {
-	filter:blur(2px);
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -27,14 +34,14 @@ html, body {
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	background-color: blue;
-	width:325px;
+	background: rgb(250,218,140, 0.8);
+	width:375px;
 	height:625px;
-	padding:20px;
-	border-radius:40px;
-	background-color: rgb(250,218,140,0.90);
+	padding:10px;
+	border-radius:50px;
+	background-color: rgb(250,218,140,0.85);
 	border-style:double;
-	border-width:thick;
+	border-width:10px;
 	border-color:#ed321a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -52,13 +59,13 @@ html, body {
   	border-color:#ed321a;
 }
 #name {
-	font-family:"Verdana";
-	font-size:42px;
+	font-family:"Helvetica";
+	font-size:54px;
 }
 
 #nickname {
-	font-family: "Verdana";
-	font-size: 14px;
+	font-family: "Courier New";
+	font-size: 15px;
 	font-weight: thin;
 }
 .profile {
@@ -71,29 +78,37 @@ html, body {
 }
 
 .container {
-	max-height:77%;
-	max-width:87%;
-	
+	font-family: "Verdana";
 	margin:auto;
-	font-size:10px;
-	text-align:center;
+	width:330px;
+	height:300px;
 
+	
 }
 
 .favorite {
-	text-align:left;
 	float: left;
-  	width: 50%;
-	
+  	width: 143px;
+  	height: 138px;
+  	padding: 10px;
+  	margin: 1px;
+  	background-color:rgb(237,50,26, 0.35);
+  	
+}
+
+.right {
+	text-align: right;
 }
 
 .header {
-	
-	font-size:16px;
+	color:#5a4754;
+	font-size:14px;
+	font-weight:bold;
 }
 
 .details {
-	font-size:14px;
+	color:#655467;
+	font-size:13px;
 }
 
 
