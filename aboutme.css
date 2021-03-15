@@ -1,0 +1,100 @@
+
+
+html, body {
+	margin:0px;
+}
+
+.background {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#261d2a; 
+}
+
+#bg {
+	filter:blur(2px);
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	object-fit:contain;
+	max-width:100%;
+	max-height:100%;
+}
+.card {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: blue;
+	width:325px;
+	height:625px;
+	padding:20px;
+	border-radius:40px;
+	background-color: rgb(250,218,140,0.90);
+	border-style:double;
+	border-width:thick;
+	border-color:#ed321a;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#me {
+	font-family:"Verdana";
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:double;
+  	border-width:10px;
+  	border-color:#ed321a;
+}
+#name {
+	font-family:"Verdana";
+	font-size:42px;
+}
+
+#nickname {
+	font-family: "Verdana";
+	font-size: 14px;
+	font-weight: thin;
+}
+.profile {
+	
+	text-align: center;
+	max-width:90%;
+	margin:auto;
+	opacity:1;
+	color:#ed321a;
+}
+
+.container {
+	max-height:77%;
+	max-width:87%;
+	
+	margin:auto;
+	font-size:10px;
+	text-align:center;
+
+}
+
+.favorite {
+	text-align:left;
+	float: left;
+  	width: 50%;
+	
+}
+
+.header {
+	
+	font-size:16px;
+}
+
+.details {
+	font-size:14px;
+}
+
+
+	
